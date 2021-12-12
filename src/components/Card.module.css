@@ -12,10 +12,25 @@
   align-items: flex-start;
   justify-content: center;
 }
-.CardImage > img {
+.CardImage {
+  cursor: pointer;
+  position: relative;
+}
+.CardImage > img:first-child {
   width: 100%;
   height: auto;
   border-radius: 10px;
+  transition: filter 0.3s;
+}
+.CardImage > img:last-child {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.3s;
+}
+.hovered {
+  filter: brightness(2);
 }
 .CardTitle > h1 {
   font-family: "Outfit", sans-serif;
@@ -23,6 +38,11 @@
   font-weight: 400;
   font-size: 24px;
   margin: 15px 0;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+.CardTitle > h1:hover {
+  color: hsl(178, 100%, 50%);
 }
 .CardContent > p {
   font-family: "Outfit", sans-serif;
@@ -80,4 +100,9 @@ hr {
 }
 .CardFooterName {
   color: white;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+.CardFooterName:hover {
+  color: hsl(178, 100%, 50%);
 }
