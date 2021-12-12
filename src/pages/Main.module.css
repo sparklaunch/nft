@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .Main {
   background-color: hsl(217, 54%, 11%);
   position: fixed;
