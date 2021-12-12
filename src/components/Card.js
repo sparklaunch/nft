@@ -23,6 +23,13 @@ function Card() {
         </div>
       </div>
       <hr />
+      <div className={classes.CardFooter}>
+        <img src="/assets/image-avatar.png" alt="Avatar" />
+        <p>
+          Creation of{" "}
+          <span className={classes.CardFooterName}>Jules Wyvern</span>
+        </p>
+      </div>
     </div>
   );
 }
