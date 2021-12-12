@@ -13,9 +13,16 @@ function Card() {
         <p>Our Equilibrium collection promotes balance and calm.</p>
       </div>
       <div className={classes.CardPrice}>
-        <div className={classes.Etherium}></div>
-        <div className={classes.TimeLeft}></div>
+        <div className={classes.Ethereum}>
+          <img src="/assets/icon-ethereum.svg" alt="Ethereum Icon" />
+          <p>0.041 ETH</p>
+        </div>
+        <div className={classes.TimeLeft}>
+          <img src="/assets/icon-clock.svg" alt="Clock Icon" />
+          <p>3 days left</p>
+        </div>
       </div>
+      <hr />
     </div>
   );
 }

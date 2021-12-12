@@ -31,3 +31,33 @@
   font-size: 18px;
   line-height: 1.5;
 }
+.CardPrice {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+.Ethereum {
+  display: flex;
+  align-items: center;
+}
+.Ethereum > p {
+  font-family: "Outfit", sans-serif;
+  color: hsl(178, 100%, 50%);
+  font-weight: 600;
+  margin-left: 10px;
+}
+.TimeLeft {
+  display: flex;
+  align-items: center;
+}
+.TimeLeft > p {
+  font-family: "Outfit", sans-serif;
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+  margin-left: 10px;
+}
+hr {
+  width: 100%;
+  border-color: hsl(215, 32%, 27%);
+}
