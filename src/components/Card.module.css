@@ -1,0 +1,15 @@
+.Card {
+  width: 300px;
+  height: auto;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 10px;
+}
+.CardImage {
+  padding: 20px;
+}
+.CardImage > img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
